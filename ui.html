@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="module" src="game.js"></script>
+    <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+    <div class="game-container">
+        <label class="topTitle">ALPHABETS : Q W E R A S D <br>PRESS DISPLAYED NUMBERS IN SEQUENCE</label>
+        <div class="btn-container">
+            <!-- ADD BUTTONS HERE -->
+        </div>
+        <div class="timeBar-container">
+            <div id='timerBar' class="w3-deep-orange" style="height:15px;width:100%;border-radius:10px"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <button class="start control">START</button>
+        <button class="reset control">RESET</button>
+        <label for="btnAmount" class="label">Amount : </label>
+        <input type="number" name="btnAmount" id="btnAmount" class = "input" value="15" min="11" max="24">
+        <label for="timeAmount" class="label">Time : </label>
+        <input type="number" name="timeAmount" id="timeAmount" class = "input" value="6" min="5" max="120">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+    </div>
+</body>
+</html>
