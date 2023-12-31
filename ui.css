@@ -10,12 +10,17 @@ body {
 }
 
 .topTitle {
-    display: flex;
     align-self: center;
     font-size: 15px;
     font-weight: bold;
     color: #ff5722;
     text-align: center;
+}
+
+.bottomTitle {
+    align-self: flex-end;
+    color: #ff5722;
+    font-size: 9px;
 }
 
 .controls {
